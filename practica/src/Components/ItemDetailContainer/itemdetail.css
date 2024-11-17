@@ -1,0 +1,27 @@
+.itemDetail{
+    display: flex;
+    background-color: bisque;
+}
+
+.itemDetail img{
+    width: 40%;
+}
+
+.descripcion{  
+    margin: 20px;
+}
+
+.descripcion p{
+    margin: 15px 0 ;
+}
+
+.finalizar-compra{
+    display: flex;
+    justify-content: center;
+    
+    color: brown;
+    text-decoration: none;
+}
+.finalizar-compra:hover{
+    color: crimson;
+}

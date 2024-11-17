@@ -1,0 +1,27 @@
+.itemCount{
+    display: flex;
+    justify-content: center;
+    margin: 40px ;
+    
+}
+
+.contador{
+    padding: 20px;
+    font-size: 20px;
+
+    background-color: azure;
+    border-radius: 10px;
+}
+
+.itemCount button{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.itemCount button:hover{
+    background-color: brown;
+    transition: background 0.3s ease;
+}
+

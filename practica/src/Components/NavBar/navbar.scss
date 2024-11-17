@@ -1,0 +1,60 @@
+.navbar{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    h2{
+        display: flex;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    ul li{
+        padding: 0 20px;
+    }
+    
+    ul li:hover{
+
+        background-color: brown;
+        transition: background 0.6s ease;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .logo{
+        width: 60px;
+    }
+
+    .nav-link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .carrito{
+        font-size: 30px;
+        color: black;
+        margin-top: 22px;
+    }
+
+    .carrito:hover{
+        color: brown;
+    }
+    
+    .cantidad{
+    
+        position: absolute;
+        right: 50px;
+        top: 66px;
+
+        color: white;
+        background-color: red;
+        border-radius: 10px;
+    }
+    
+}
+
